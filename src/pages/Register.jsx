@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import Add from "../img/avtar-1.png"
 import {  createUserWithEmailAndPassword } from "firebase/auth";
-import { getAuth } from ' ../firebase';
+import { auth } from './firebase.js';
 import { useState } from 'react';
 
 
